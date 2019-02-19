@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-BlogDotNet-08D4ECF7-E9FD-42AB-8714-4AFC69C5A56D</UserSecretsId>
+    <DockerTargetOS>Windows</DockerTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.RouteAnalyzer" Version="0.5.3" />
+    <PackageReference Include="Bogus" Version="24.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.0.1916590" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.5" PrivateAssets="All" />
+    <PackageReference Include="MySql.Data" Version="8.0.13" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.13" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore.Design" Version="8.0.13" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Article\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Article\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Article\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Article\Edit2.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Article\List.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Article\Show.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Users\Login.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Home\About.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Home\Contact.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Home\Privacy.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Shared\Error.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Shared\ErrorPage.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Shared\_CookieConsentPartial.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Shared\_Layout.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Shared\_LoginPartial.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Articles\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Articles\CreateArticle.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Articles\Exception.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Articles\GetArticleBySlug.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Articles\GetByAuthor.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Articles\GetByCategory.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Articles\GetBySearchTerm.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Articles\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Articles\Show.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Articles\UpdateArticle.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Articles\UpdateArticle2.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Comments\Create.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas" />
+    <Folder Include="Data\Migrations" />
+    <Folder Include="Migrations" />
+  </ItemGroup>
+
+</Project>
